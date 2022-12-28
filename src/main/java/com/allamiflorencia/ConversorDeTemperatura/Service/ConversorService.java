@@ -4,10 +4,13 @@
  */
 package com.allamiflorencia.ConversorDeTemperatura.Service;
 
+import org.springframework.stereotype.Service;
+
 /**
  *
  * @author flopy
  */
+@Service
 public class ConversorService implements IConversorService {
     @Override
     public long FahrenheitaCelsius(long f){
